@@ -1,0 +1,14 @@
+name: Feature Request
+description: Suggest a feature
+title: "Feature/Enhancement: <Title>"
+labels: ["Type: Enhancement"]
+body:
+- type: textarea
+  attributes:
+    label: Describe your suggestion
+    description: Give a clear explanation of what you want us to add. Feel free to add pictures or video!
+    placeholder: |
+      Please don't give vague suggestions like "Make button look better" or "Add entity that damages the player".
+      Think, how does it work. What are the inputs. What is the expected outcome?
+  validations:
+    required: true
