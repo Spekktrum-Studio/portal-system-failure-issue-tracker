@@ -6,7 +6,7 @@ body:
 - type: textarea
   attributes:
     label: Describe the bug
-    description: A clear description of what the bug is. Feel free to add pictures or videos (They really help!)
+    description: A clear description of what the bug is. Please add pictures or videos! Also if this a performance-related bug report, please state your CPU, GPU and the amount + speed of your RAM.
     placeholder: |
       When I do X then Y happens.
   validations:
@@ -29,9 +29,3 @@ body:
       3. See error
   validations:
     required: true
-- type: input
-  attributes:
-    label: Operating System
-    description: (Optional&#58; Only if OS Specific)
-  validations:
-    required: false
