@@ -16,7 +16,7 @@ body:
     label: Issue Map
     description: A map that the issue occurs on. 
     placeholder: |
-      Please explicitly state what map the issue occurs on. If this is not a default map, include a download link to the BSP, VMF, or both.
+      Please explicitly state what map the issue occurs on. If it's a generic issue, then state a map which can easily reproduce the bug.
   validations:
     required: true
 - type: textarea
